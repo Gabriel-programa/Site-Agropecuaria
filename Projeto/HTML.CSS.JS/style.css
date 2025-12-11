@@ -496,7 +496,20 @@ main p a:hover {
 }
 
 /* PADRÃO DOS CARDS */
-.produto-item {
+.produto-item1 {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    gap: 30px;
+    min-height: 320px; /* garante tamanho igual */
+    position: relative;
+    margin-top: 100px;
+}
+.produto-item2 {
     display: flex;
     align-items: flex-start;
     background: #fff;
@@ -507,7 +520,18 @@ main p a:hover {
     gap: 30px;
     min-height: 320px; /* garante tamanho igual */
 }
+.produto-item3 {
+    display: flex;
+    align-items: flex-start;
+    background: #fff;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 35px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    gap: 30px;
+    min-height: 320px; /* garante tamanho igual */
 
+}
 /* PADRONIZAÇÃO DA IMAGEM */
 .produto-img {
     width: 260px;
@@ -569,7 +593,7 @@ main p a:hover {
         flex-direction: column;
         text-align: center;
         min-height: auto;
-    }
+        }
 
     .produto-img {
         width: 70%;
