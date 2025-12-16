@@ -605,3 +605,43 @@ main p a:hover {
         margin: 0 auto;
     }
 }
+
+/* ===== SOBRE NÓS ===== */
+
+.sobre-container {
+    max-width: 1000px;
+    margin: 140px auto 40px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.sobre-card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 30px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.sobre-card h1 {
+    color: #d60000;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+.sobre-card p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.sobre-card ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.sobre-card ul li {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
